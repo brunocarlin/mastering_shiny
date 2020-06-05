@@ -13,9 +13,9 @@ run_chapter <- function(chapter_path) {
            "/",
            chapter_path)
   if (file.exists(paste0(first_path,"/app.r"))) {
-    shinyAppDir(first_path)
+    shiny::shinyAppDir(first_path)
   } else if (dir.exists(second_path)) {
-    shinyAppDir(second_path)
+    shiny::shinyAppDir(second_path)
   } else stop("No app")
 
 
