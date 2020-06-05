@@ -18,4 +18,5 @@ run_chapter <- function(chapter_path) {
     shinyAppDir(second_path)
   } else stop("No app")
 
+
 }
