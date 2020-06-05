@@ -1,10 +1,18 @@
-
 #' Runs chapter
 #'
 #' @return
 #' @export
 #'
-#' @examples run_chapter(3)
+#' @param chapter_path a book chapter like 2.2 or 3
+#'
+#' @value an R shiny app
+#'
+#'@examples
+#'
+#' \dontrun{
+#'    run_chapter(3)
+#'    run_chapter(2.2)
+#' }
 run_chapter <- function(chapter_path) {
   first_path <- paste0("chapters/", chapter_path)
   second_path <-

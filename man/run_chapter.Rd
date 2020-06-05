@@ -6,6 +6,9 @@
 \usage{
 run_chapter(chapter_path)
 }
+\arguments{
+\item{chapter_path}{a book chapter like 2.2 or 3}
+}
 \value{
 
 }
@@ -13,5 +16,9 @@ run_chapter(chapter_path)
 Runs chapter
 }
 \examples{
-run_chapter(3)
+
+\dontrun{
+   run_chapter(3)
+   run_chapter(2.2)
+}
 }
