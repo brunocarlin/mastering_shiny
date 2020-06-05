@@ -1,9 +1,9 @@
 Type: Package
 Package: mastering.shiny
-Title: What the Package Does (Title Case)
+Title: Mastering Shiny Examples
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Bruno Testaguzza Carlin
+Maintainer: The package maintainer <brunotestaguzza@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: MIT + file LICENSE
@@ -16,7 +16,9 @@ Imports:
     shinythemes,
     vroom,
     waiter,
-    zeallot
+    zeallot,
+    stringr,
+    purrr
 Suggests: 
     covr
 Encoding: UTF-8
@@ -24,3 +26,4 @@ LazyData: true
   <!-- badges: start -->
   [![R build status](https://github.com/brunocarlin/mastering_shiny/workflows/R-CMD-check/badge.svg)](https://github.com/brunocarlin/mastering_shiny/actions)
   <!-- badges: end -->
+RoxygenNote: 7.1.0
