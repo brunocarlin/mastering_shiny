@@ -21,3 +21,6 @@ Suggests:
     covr
 Encoding: UTF-8
 LazyData: true
+  <!-- badges: start -->
+  [![R build status](https://github.com/brunocarlin/mastering_shiny/workflows/R-CMD-check/badge.svg)](https://github.com/brunocarlin/mastering_shiny/actions)
+  <!-- badges: end -->
